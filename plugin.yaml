@@ -1,0 +1,22 @@
+name: personal-os-retrieval
+version: 0.2.2
+description: Local metadata-gated Obsidian search and cited answer generation.
+author: Atabak Nikouseresht
+provides_tools:
+  - personal_os_search
+  - personal_os_answer
+provides_hooks:
+  - pre_api_request
+config_schema:
+  vault_path:
+    type: str
+    default: "~/Obsidian"
+    description: Path to an existing Obsidian vault; configure explicitly for your system.
+  allow_remote_transmission:
+    type: bool
+    default: false
+    description: Allow a remote model only for notes explicitly marked ai_remote_share true.
+  evidence_token_budget:
+    type: int
+    default: 6000
+    description: Conservative approximate token cap for expanded evidence sent to the model.

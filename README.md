@@ -6,7 +6,7 @@
 
 Independent experimental integration; not an official Hermes Agent, Nous Research, or Obsidian product.
 
-[Quickstart](#quickstart) · [Architecture](#architecture) · [Privacy](#privacy-and-security) · [Benchmarks](#benchmark-results) · [Validation](docs/validation.md) · [Status](STATUS.md) · [Changelog](CHANGELOG.md)
+[Quickstart](#quickstart) · [Architecture](#architecture) · [Privacy](#privacy-and-security) · [Benchmarks](#benchmark-results) · [Validation](docs/validation.md) · [Status](STATUS.md) · [Changelog](CHANGELOG.md) · [License](LICENSE)
 
 Hermes Obsidian Retrieval explores how an AI assistant can find relevant material in a local Obsidian knowledge base without repeatedly copying whole documents into the conversation. It combines metadata-gated Markdown indexing with SQLite FTS5/BM25 search and source references. Its answer-generation path is experimental and remains unaccepted.
 
@@ -179,6 +179,7 @@ hermes-obsidian-retrieval/
 ├── CHANGELOG.md
 ├── STATUS.md
 ├── PROJECT_MANIFEST.md
+├── LICENSE
 ├── plugin.yaml
 ├── __init__.py
 ├── personal_os_retrieval/
@@ -207,9 +208,9 @@ hermes-obsidian-retrieval/
 
 See [`STATUS.md`](STATUS.md) for the formal freeze and [`docs/validation.md`](docs/validation.md) for verified, failed, and unverified results.
 
-## License status
+## License
 
-No license file is currently present. The license choice is awaiting the author's explicit decision; do not assume this repository grants reuse rights.
+Licensed under the MIT License. See [`LICENSE`](LICENSE).
 
 ## Author
 

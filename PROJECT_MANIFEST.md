@@ -4,7 +4,7 @@
 
 ## Preserved files
 
-- Root: `.gitignore`, `README.md`, `CHANGELOG.md`, `STATUS.md`, `PROJECT_MANIFEST.md`, `plugin.yaml`, `__init__.py`.
+- Root: `.gitignore`, `README.md`, `CHANGELOG.md`, `STATUS.md`, `PROJECT_MANIFEST.md`, `LICENSE`, `plugin.yaml`, `__init__.py`.
 - Implementation: `personal_os_retrieval/answering.py`, `personal_os_retrieval/indexer.py`.
 - Tests: `tests/test_answering.py`, `tests/test_expansion.py`, `tests/test_indexer.py`, `tests/test_plugin.py`.
 - Benchmark code and notes: `benchmarks/run_benchmark.py`, `benchmarks/README.md`.
@@ -17,7 +17,7 @@
 - Generated `__pycache__`/`.pyc` files are excluded. The source plugin folder contained these disposable caches at inspection time.
 - No SQLite index, vault note, thesis file, personal profile export, local Hermes configuration/authentication state, log, model conversation, `.env`, credential, or backup snapshot is included.
 - No prior Git history existed in the source plugin location; the archive begins with a new local commit. No existing history was rewritten.
-- No `LICENSE` file is present. License selection remains pending the author's explicit decision; do not assume the public repository grants reuse rights until that decision is recorded.
+- The MIT `LICENSE` file was added after the author explicitly chose MIT for the public repository.
 
 ## Runtime data boundary
 

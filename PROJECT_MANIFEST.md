@@ -17,6 +17,7 @@
 - Generated `__pycache__`/`.pyc` files are excluded. The source plugin folder contained these disposable caches at inspection time.
 - No SQLite index, vault note, thesis file, personal profile export, local Hermes configuration/authentication state, log, model conversation, `.env`, credential, or backup snapshot is included.
 - No prior Git history existed in the source plugin location; the archive begins with a new local commit. No existing history was rewritten.
+- No `LICENSE` file is present. License selection remains pending the author's explicit decision; do not assume the public repository grants reuse rights until that decision is recorded.
 
 ## Runtime data boundary
 

@@ -106,6 +106,8 @@ flowchart TD
     J --> K[Validated claims, conflicts, or abstention]
 ```
 
+**Text fallback:** User query → Hermes Agent → metadata and route checks → SQLite FTS5/BM25 → evidence expansion → source references → structured answer attempt or abstention.
+
 The diagram describes the implemented request path, not a claim that every stage has passed end-to-end acceptance. See [`docs/architecture.md`](docs/architecture.md) for the index schema, refresh and revocation behavior, answer-call path, and route checks.
 
 ## Technology
